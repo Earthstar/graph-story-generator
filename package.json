@@ -4,7 +4,8 @@
   "description": "Generates stories",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/typescript/bin/tsc src/index.ts --outfile build/index.js"
   },
   "author": "",
   "license": "MIT",
